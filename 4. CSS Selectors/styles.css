@@ -5,12 +5,12 @@
 }
 
 /* TODO 4.2: Select the <p> element */
-.text{
+p {
     color: blue;
 }
 
 /* TODO 4.3: Select the elements with the class "text" */
-.text{
+.text {
     font-size: 20px;
 }
 
@@ -20,7 +20,7 @@
 }
 
 /* TODO 4.5: Select the element with the classes "title" or "text" in one query selector */
-.text, .title{
+.text, .title {
     text-align: center;
 }
 
@@ -35,7 +35,7 @@ div.common {
 }
 
 /* TODO 4.8: Select the first letter of <p> elements */
-.text::first-letter {
+p::first-letter {
     font-size: 200%;
     color: blue;
 }
