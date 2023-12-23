@@ -10,25 +10,25 @@
     <!-- TODO 2.1: Add the container for the form. It should POST to "/submit_form"  -->
     <form action="/submit_form" method="post">
         <!-- TODO 2.2: Add a first name text field -->
-        <label> First Name:</label>
+        <label for="firstname"> First Name:</label>
         <br>
         <input type="text" name="firstname" id="firstname">
         <br>
 
         <!-- TODO 2.3: Add a last name text field. The field must be required. -->
-        <label> Last Name: </label>
+        <label for="lastname"> Last Name: </label>
         <br>
         <input type="text" name="lastname" id="firstname" required>
         <br>
 
         <!-- TODO 2.4: Add an email text field. The field must be read only. -->
-        <label> Email: </label>
+        <label for="email"> Email: </label>
         <br>
         <input type="text" name="email" id="email" readonly>
         <br>
 
         <!-- TODO 2.5: Add an address text field. The field must be disabled. -->
-        <label> Address: </label>
+        <label for="address"> Address: </label>
         <br>
         <input type="text" name="address" id="address" disabled>
         <br>
@@ -52,6 +52,7 @@
         <label for="choice1">Online</label>
         <input type="radio" id="choice2" name="plm" value="F2F">
         <label for="choice2">F2F</label>
+
         <!-- TODO 2.8: Add check boxes that ask which subjects the user has taken -->
         <br>
         <label> Subjects you have taken </label>
@@ -60,14 +61,17 @@
         <label for="CS102-1">CS102-1</label>
         <input type="checkbox" id="IT111" name="subj">
         <label for="IT111">IT111</label>
+
         <!-- TODO 2.9: Add a text area that asks the user if they would prefer to be a cactus or a shark -->
         <br>
         <label for="wouldyou"> Would you rather be a cactus or a shark? Why?</label>
         <br>
         <textarea id="wouldyou" name="askq" rows="4" cols="50">Enter your answer here...</textarea>
+
         <!-- TODO 2.10: Add a submit button -->
         <br>
         <input type="submit" value="Submit">
+        
     </form>
 </body>
 
