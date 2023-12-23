@@ -27,7 +27,7 @@
     height: 200px;
     width: 300px;
     /* TODO 3.10: Change the background color fo the div. Can you find a way to make the background color 50% transparent? */
-    background-color: aquamarine;
+    background-color: rgba(127,255,212,0.3);
     /* TODO 3.11: Play around with the margin, padding and border. Can you find a way to set the size of specific sides? */
     border: 3px dotted black;
     margin: 5% auto;
